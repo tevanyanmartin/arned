@@ -1,0 +1,44 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 0;
+}
+.footer .footer-content > div div{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto 5px;
+    background-size: contain;
+   }
+.footer .footer-content p{
+font-size: 10px;
+color: gray;
+}
+.footer .footer-content .doc-icon .icon{
+background-image: url('../images/doctor.png');
+}
+.footer .footer-content .vis-icon .icon{
+
+    background-image: url('../images/calendar.png');
+}
+.footer .footer-content .syr-icon .icon{
+
+    background-image: url('../images/syringe.png');
+}
+.footer .footer-content .pers-icon .icon{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto 5px;
+    background-size: contain;
+    background-image: url('../images/person.png');
+}
+.footer a{
+     text-decoration: none;
+}

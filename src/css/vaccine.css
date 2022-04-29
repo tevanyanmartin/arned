@@ -1,0 +1,80 @@
+/*Vaccine list*/
+
+.vaccine-list {
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.vaccine-list .vaccine-list-content {
+    width: 97%;
+    margin: auto;
+}
+/* Vaccine */
+
+.vaccine {
+    width: 99%;
+    margin: auto;
+}
+
+.active-vaccine {
+    background-color: rgb(2, 109, 2) !important;
+    color:white !important;
+}
+
+.vaccine .vaccine-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 2px;
+    z-index: 10;
+}
+
+.vaccine .vaccine-content .vaccine-info {
+    display: flex;
+    color: #787878;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.vaccine .vaccine-content .vaccine-info .vaccine-date {
+    display: grid;
+    align-content: center;
+}
+
+.vaccine .vaccine-content .vaccine-info .syringe {
+    background-image: url('../images/syringe.png');
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: contain;
+    margin: 0 7px;
+}
+
+.vaccine .vaccine-content .vaccine-info .vaccine-name {
+    display: grid;
+    align-content: center;
+    font-weight: bolder;
+    color: #01477c;
+}
+
+
+.vaccine .vaccine-content .vaccine-icons {
+    display: flex;
+}
+
+.vaccine .vaccine-content .vaccine-icons .europan-union {
+    background-image: url('../images/european-union.png');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.vaccine .vaccine-content .vaccine-icons .qr-code {
+    background-image: url('../images/qr-code.png');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
